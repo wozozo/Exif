@@ -37,7 +37,7 @@ class Exif(object):
             orientation = self.data['Orientation']
             if orientation == 1:
                 # Nothing
-                self.im = self.im.copy()
+                pass
             elif orientation == 2:
                 # Vertical Mirror
                 self.im = self.im.transpose(Image.FLIP_LEFT_RIGHT)
