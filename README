@@ -1,0 +1,6 @@
+requirement PIL
+
+from exif import Exif
+
+im = Exif('filename.jpg')
+im.clear()
